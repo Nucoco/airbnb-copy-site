@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="airbnb.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a
+          class="navbar-brand disabled"
+          href="#"
+          tabindex="-1"
+          aria-disabled="true"
+          >LOGO</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#"
+              >概要 <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-link" href="#">準備</a>
+            <a class="nav-link" href="#">安全</a>
+            <a class="nav-link" href="#">マネープラン</a>
+          </div>
+        </div>
+        <button type="button" class="btn btn-danger">はじめる</button>
+      </nav>
+    </header>
+    <main>
+      <div class="tv"></div>
+      <div class="card border-light mb-3" style="max-width: 18rem">
+        <div class="card-header">
+          Airbnbホストになって、暮らしをレベルアップ
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="Address">宿泊施設の内容を記入</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Address"
+                placeholder="東京"
+              />
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <select id="course" class="form-control">
+                  <option selected>まるまる貸切</option>
+                  <option>個室</option>
+                  <option>シェアルーム</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <select id="member" class="form-control">
+                  <option>ゲスト1人</option>
+                  <option>ゲスト2人</option>
+                  <option>ゲスト3人</option>
+                  <option selected>ゲスト4人</option>
+                  <option>ゲスト5人</option>
+                </select>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">はじめる</button>
+          </form>
+        </div>
+      </div>
+      <div class="top-txt">
+        <div>
+          <h4>Airbnbでホストするこれだけの理由</h4>
+          <h6>
+            どんなお家やお部屋でも、Airbnbなら簡単かつ安全にシェアでき、世界中の旅好きな仲間とつながれます。
+            予約可能日から料金、ハウスルール、ゲストとの交流程度まで、すべて自分で決めることができます。
+          </h6>
+        </div>
+
+        <div>
+          <h4>困ったときも安心</h4>
+          <h6>
+            万一に備えるUS$1,000,000の財物補償、US$1,000,000の賠償責任保険が全予約に自動付帯。ホストのみなさまと建物・家財の安全をお守りするため全力で取り組んでいます。
+          </h6>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <section class="three-steps">
+        <h1>3ステップでホスティング</h1>
+        <div>
+          <div>
+            <img src="images/checkmark.png" alt="" width="50px" />
+            <h4>無料でお部屋を掲載</h4>
+            <h6>
+              共有のリビングルームから別荘に至るまで、どんなスペースでも登録料なしで共有しましょう。
+            </h6>
+          </div>
+          <div>
+            <img src="images/checkmark.png" alt="" width="50px" />
+            <h4>ホスティング方法を設定</h4>
+            <h6>
+              スケジュール、料金、ゲストへの要件をご自身で選択しましょう。
+              お困りの際にはいつでもサポートいたします。
+            </h6>
+          </div>
+          <div>
+            <img src="images/checkmark.png" alt="" width="50px" />
+            <h4>はじめてのゲストが来ます！</h4>
+            <h6>
+              リスティングが掲載されると、条件にかなったゲストから連絡を受けとることができます。
+              ゲストの到着前に質問があればメッセージを送信できます。
+            </h6>
+
+            <a href=""><br />ホストをはじめる方法をチェック</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-links" style="display: flex">
+        <nav class="nav flex-column">
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Disabled</a
+          >
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+        </nav>
+        <nav class="nav flex-column">
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Disabled</a
+          >
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+        </nav>
+        <nav class="nav flex-column">
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Disabled</a
+          >
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+        </nav>
+        <nav class="nav flex-column">
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Disabled</a
+          >
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link</a>
+        </nav>
+      </section>
+      <section class="footer-bottom"></section>
+    </footer>
+  </body>
+</html>

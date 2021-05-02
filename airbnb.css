@@ -1,0 +1,138 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  max-width: 1600px;
+  margin: auto;
+  padding-top: 80px;
+}
+
+h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-weight: normal;
+  letter-spacing: 0.01em;
+  line-height: 1.8em;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+}
+
+.navbar {
+  height: 80px;
+  padding-right: 80px;
+}
+
+.navbar .nav-link {
+  margin-right: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 62px;
+}
+
+.navbar .active {
+  color: green !important;
+  border-bottom: 2px solid green;
+}
+
+.navbar .btn {
+  border-radius: 8px;
+}
+
+.tv {
+  overflow: hidden;
+  margin-bottom: 70px;
+  width: 100vw;
+  max-width: 1600px;
+  height: 600px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(transparent), color-stop(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.6))), url("./images/1.jpg");
+  background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("./images/1.jpg");
+  background-size: cover;
+}
+
+.card {
+  position: absolute !important;
+  z-index: 1;
+  top: 15vh;
+  right: 12vw;
+  max-width: 450px !important;
+  height: 450px;
+}
+
+.card-header {
+  background-color: white !important;
+  border-bottom: none !important;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.card .col-md-4 {
+  max-width: none;
+}
+
+.card .col-md-4 .form-control {
+  width: 199px;
+}
+
+.card .btn-primary {
+  width: 100%;
+  background-color: #e51d54;
+}
+
+.top-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 120px;
+}
+
+.top-txt div {
+  width: 440px;
+  margin-right: 85px;
+}
+
+.divider {
+  width: 65px;
+  margin: 0 auto;
+  border-bottom: 2px solid;
+}
+
+.three-steps h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 25px 0 70px;
+}
+
+.three-steps > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.three-steps > div > div {
+  width: 290px;
+  margin-right: 65px;
+}
+
+.three-steps > div > div > img {
+  margin-bottom: 20px;
+}
+
+.three-steps > div > div > a {
+  color: green;
+}
+/*# sourceMappingURL=airbnb.css.map */
